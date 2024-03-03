@@ -1,0 +1,16 @@
+{
+   "name": "manage-landing-page",
+   "version": "1.0.0",
+   "description": "An intermediate front end mentor challenge, a landing page website. Built with HTML and Tailwind CSS.",
+   "main": "index.js",
+   "scripts": {
+      "build": "tailwindcss -i ./index.css -o ./css/main.css",
+      "watch": "tailwindcss -i ./index.css -o ./css/main.css --watch"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "tailwindcss": "^3.4.1"
+   }
+}
