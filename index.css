@@ -19,7 +19,7 @@ body {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
    body {
       background-position: 50px -50px;
       background-size: 500px;
@@ -46,7 +46,7 @@ body {
 .hamburger-bottom {
    position: absolute;
    width: 24px;
-   height: 2px;
+   height: 3px;
    top: 0;
    left: 0;
    background: #000;

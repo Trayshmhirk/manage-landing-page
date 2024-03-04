@@ -548,9 +548,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 576px) {
   .container {
-    max-width: 480px;
+    max-width: 576px;
   }
 }
 
@@ -560,15 +560,15 @@ video {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1120px) {
   .container {
-    max-width: 976px;
+    max-width: 1120px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .container {
-    max-width: 1440px;
+    max-width: 1240px;
   }
 }
 
@@ -748,6 +748,14 @@ video {
 
 .mt-32 {
   margin-top: 8rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .box-border {
@@ -1421,6 +1429,22 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2636,7 +2660,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   body {
     background-position: 50px -50px;
     background-size: 500px;
@@ -2662,7 +2686,7 @@ body {
 .hamburger-bottom {
   position: absolute;
   width: 24px;
-  height: 2px;
+  height: 3px;
   top: 0;
   left: 0;
   background: #000;
@@ -2695,14 +2719,14 @@ body {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 576px) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: 576px) {
     .sm\:container {
-      max-width: 480px;
+      max-width: 576px;
     }
   }
 
@@ -2712,15 +2736,15 @@ body {
     }
   }
 
-  @media (min-width: 976px) {
+  @media (min-width: 1120px) {
     .sm\:container {
-      max-width: 976px;
+      max-width: 1120px;
     }
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1240px) {
     .sm\:container {
-      max-width: 1440px;
+      max-width: 1240px;
     }
   }
 }
@@ -2777,7 +2801,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 576px) {
   .sm\:w-auto {
     width: auto;
   }
@@ -2798,6 +2822,18 @@ body {
 
   .md\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .md\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .md\:block {
@@ -2848,6 +2884,10 @@ body {
     gap: 3rem;
   }
 
+  .md\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .md\:gap-x-6 {
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
@@ -2895,7 +2935,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  @media (min-width: 976px) {
+  @media (min-width: 1120px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
