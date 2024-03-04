@@ -8,8 +8,8 @@
 body {
    background-image: url('../img/bg-tablet-pattern.svg');
    background-repeat: no-repeat;
-   background-size: 800px;
-   background-position: 90% -25%;
+   background-size: 750px;
+   background-position: 115% -12%;
 
 }
 
@@ -17,6 +17,13 @@ body {
    background-image: url('../img/bg-simplify-section-desktop.svg');
    background-repeat: no-repeat;
 
+}
+
+@media screen and (max-width: 1120px) {
+   body {
+      background-size: 650px;
+      background-position: 150% -10%;
+   }
 }
 
 @media screen and (max-width: 768px) {
