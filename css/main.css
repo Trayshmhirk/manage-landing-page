@@ -667,6 +667,14 @@ video {
   top: 50%;
 }
 
+.top-\[70\%\] {
+  top: 70%;
+}
+
+.top-\[68\%\] {
+  top: 68%;
+}
+
 .isolate {
   isolation: isolate;
 }
