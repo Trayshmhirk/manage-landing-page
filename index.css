@@ -10,7 +10,6 @@ body {
    background-repeat: no-repeat;
    background-size: 750px;
    background-position: 115% -12%;
-
 }
 
 #cta {
@@ -28,7 +27,7 @@ body {
 
 @media screen and (max-width: 768px) {
    body {
-      background-position: 50px -50px;
+      background-position: 50px -150px;
       background-size: 500px;
    }
 
