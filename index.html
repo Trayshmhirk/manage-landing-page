@@ -13,7 +13,7 @@
    </head>
    <body>
       <div
-         class="absolute z-[-1] top-[68%] right-[-170px] w-[300px] md:w-[650px] md:top-[60%] md:left-[-400px] lg:w-[750px] lg:top-[70%] lg:left-[-450px]"
+         class="hidden absolute z-[-1] top-[68%] right-[-170px] w-[300px] md:w-[650px] md:top-[60%] md:left-[-400px] lg:w-[750px] lg:top-[70%] lg:left-[-450px]"
       >
          <img src="img/bg-tablet-pattern.svg" alt="" />
       </div>
@@ -42,7 +42,7 @@
 
             <!-- Hamburger Icon -->
             <button
-               class="block hamburger md:hidden focus:outline-none"
+               class="block hamburger md:hidden focus:outline-none z-20"
                id="menu-btn"
             >
                <span class="hamburger-top"></span>
@@ -55,7 +55,7 @@
          <div class="md:hidden">
             <div
                id="menu"
-               class="absolute flex-col items-center self-end hidden py-8 mt-10 gap-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+               class="absolute z-20 flex-col items-center self-end hidden rounded-md py-8 mt-10 gap-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
             >
                <a href="#">Pricing</a>
                <a href="#">Product</a>
@@ -65,6 +65,8 @@
             </div>
          </div>
       </nav>
+      <!-- mobile linear gradient bg -->
+      <div class="mobile-bg hidden h-screen w-screen z-10"></div>
 
       <!-- Hero -->
       <section id="hero">

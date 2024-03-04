@@ -84,3 +84,12 @@ body {
 .open .hamburger-bottom {
    transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
+
+.linear-gradient-bg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-image: linear-gradient(to bottom, #0000000e 30%, #00000069 80%);
+}
