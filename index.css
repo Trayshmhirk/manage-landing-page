@@ -37,7 +37,6 @@ body.menu-open {
 
    #cta {
       background-image: url('../img/bg-simplify-section-mobile.svg');
-
    }
 }
 
@@ -113,5 +112,13 @@ body.menu-open {
 
    .testimonial-button.active {
       background: theme('colors.brightRed');
+   }
+
+   .success-message {
+      @apply mt-1 text-xs w-fit text-green-700;
+   }
+
+   .error-message {
+      @apply mt-1 text-xs w-fit text-brightRed;
    }
 }

@@ -583,6 +583,26 @@ video {
   background: hsl(12, 88%, 59%);
 }
 
+.success-message {
+  margin-top: 0.25rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity));
+}
+
+.error-message {
+  margin-top: 0.25rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -746,6 +766,11 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .-mt-14 {
@@ -1467,6 +1492,14 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2340,6 +2373,18 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
 .bg-blend-normal {
   background-blend-mode: normal;
 }
@@ -2900,6 +2945,10 @@ body.menu-open {
     gap: 1.5rem;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:gap-x-6 {
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
@@ -2945,6 +2994,10 @@ body.menu-open {
 
   .lg\:w-\[750px\] {
     width: 750px;
+  }
+
+  .lg\:gap-28 {
+    gap: 7rem;
   }
 }
 
