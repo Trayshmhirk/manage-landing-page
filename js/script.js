@@ -7,6 +7,9 @@ btn.addEventListener("click", () => {
    nav.classList.toggle("hidden");
    mobileBg.classList.toggle("hidden");
    mobileBg.classList.toggle("linear-gradient-bg");
+
+   // Toggle body scroll
+   document.body.classList.toggle("menu-open");
 });
 
 // JavaScript

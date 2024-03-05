@@ -12,6 +12,10 @@ body {
    background-position: 115% -12%;
 }
 
+body.menu-open {
+   overflow: hidden;
+}
+
 #cta {
    background-image: url('../img/bg-simplify-section-desktop.svg');
    background-repeat: no-repeat;
@@ -91,7 +95,7 @@ body {
    left: 0;
    right: 0;
    bottom: 0;
-   background-image: linear-gradient(to bottom, #0000000e 30%, #00000069 80%);
+   background-image: linear-gradient(to bottom, #00000018 30%, #0000007c 80%);
 }
 
 .active {
