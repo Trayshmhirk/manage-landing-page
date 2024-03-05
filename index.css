@@ -93,3 +93,21 @@ body {
    bottom: 0;
    background-image: linear-gradient(to bottom, #0000000e 30%, #00000069 80%);
 }
+
+.active {
+   display: flex !important;
+}
+
+@layer components {
+
+   .testimonial-button {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid theme('colors.brightRed');
+   }
+
+   .testimonial-button.active {
+      background: theme('colors.brightRed');
+   }
+}

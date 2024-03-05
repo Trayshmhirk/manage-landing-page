@@ -572,6 +572,17 @@ video {
   }
 }
 
+.testimonial-button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid hsl(12, 88%, 59%);
+}
+
+.testimonial-button.active {
+  background: hsl(12, 88%, 59%);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -892,8 +903,8 @@ video {
   width: 100vw;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-md {
@@ -2706,6 +2717,10 @@ body {
   right: 0;
   bottom: 0;
   background-image: linear-gradient(to bottom, #0000000e 30%, #00000069 80%);
+}
+
+.active {
+  display: flex !important;
 }
 
 @media (min-width: 576px) {
