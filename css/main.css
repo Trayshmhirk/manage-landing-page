@@ -554,9 +554,9 @@ video {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .container {
-    max-width: 768px;
+    max-width: 900px;
   }
 }
 
@@ -761,16 +761,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .-mt-14 {
@@ -1462,6 +1452,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-12 {
   gap: 3rem;
 }
@@ -1474,8 +1468,8 @@ video {
   gap: 0.5rem;
 }
 
-.gap-28 {
-  gap: 7rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-3 {
@@ -1492,14 +1486,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2377,14 +2363,6 @@ video {
   opacity: 0.3;
 }
 
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-20 {
-  opacity: 0.2;
-}
-
 .bg-blend-normal {
   background-blend-mode: normal;
 }
@@ -2700,7 +2678,7 @@ body.menu-open {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   body {
     background-position: 50px -150px;
     background-size: 500px;
@@ -2783,9 +2761,9 @@ body.menu-open {
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .sm\:container {
-      max-width: 768px;
+      max-width: 900px;
     }
   }
 
@@ -2868,7 +2846,7 @@ body.menu-open {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .md\:left-\[-400px\] {
     left: -400px;
   }
@@ -2941,12 +2919,12 @@ body.menu-open {
     gap: 3rem;
   }
 
-  .md\:gap-6 {
-    gap: 1.5rem;
-  }
-
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
   }
 
   .md\:gap-x-6 {

@@ -29,7 +29,7 @@ body.menu-open {
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
    body {
       background-position: 50px -150px;
       background-size: 500px;
